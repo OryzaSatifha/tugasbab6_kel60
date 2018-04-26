@@ -44,14 +44,14 @@ namespace sewamobil
                 switch (kode)
                 {
                     case (1):
-                        int satu = 450000;
+                        int satu = 750000;
                         Console.Write("Masukkan Lama Sewa [/hari] : ");
                         b = Console.ReadLine();
                         int.TryParse(b, out lama);
                         hitunglagi(satu, lama);
                         break;
                     case (2):
-                        int dua = 500000;
+                        int dua = 6500000;
                         Console.Write("Masukkan Lama Sewa [/hari] : ");
                         b = Console.ReadLine();
                         int.TryParse(b, out lama);
